@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <nav className="flex z-[90] relative justify-between items-center text-white bg-black/20" >
       <div className='flex justify-center items-center font-bold text-2xl md:text-3xl pl-5 hover:text-[#FF9999]'>
-        <img src={logo} alt='Simran' className=' h-10 w-20'/>
+        <img src={logo} alt='Simran' className=' h-12 w-10 object-contain'/>
         <h2>IMRAN</h2>
       </div>
     {/* Pc screen */}

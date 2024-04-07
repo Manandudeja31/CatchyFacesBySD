@@ -7,7 +7,8 @@ const Home = () => {
         bg-no-repeat bg-cover bg-black/50' style={{backgroundImage: `url(${bg})`}}>
             <Navbar/>
             <div className=' relative'>
-                <div className='absolute right-6 top-52 md:right-[450px] flex flex-col md:top-0 gap-2 justify-center items-center'>
+                <div className='absolute right-6 top-52 lg:right-[450px] flex flex-col 
+                lg:top-0 md:right-[280px] md:top-0 gap-2 justify-center items-center'>
                     <h2 className=' h-22 w-168 text-[#FF9999] text-3xl font-semibold oleoB'>MAKEUP ARTIST</h2>
                     <p className=' pb-0 text-white text-xl md:text-black font-semibold berk pl-10'>
                         YOUR FACE 👩, MY SKILLS. 🪄

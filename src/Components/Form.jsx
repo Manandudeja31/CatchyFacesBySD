@@ -16,12 +16,12 @@ const Form = () => {
 
     }
   return (
-    <div className=' w-[400px] md:w-full'>
+    <div className=' w-[400px] lg:w-full'>
         {state === true ? ( 
             <form ref={form} onSubmit={handleSubmit}>
                 <div className=' m-10 border p-5 border-black'>
                     <h2 className=' text-2xl font-semibold'>GET IN TOUCH</h2>
-                    <div className=' flex flex-col md:flex-row pt-5 '>
+                    <div className=' flex flex-col lg:flex-row pt-5 '>
                         <div className=' flex flex-col pr-3 '>
                             <label className=' text-lg font-semibold'>Name</label>
                             <input 
@@ -33,7 +33,7 @@ const Form = () => {
                             required={true}
                             />
                         </div>
-                        <div className=' flex flex-col'>
+                        <div className=' flex flex-col lg:pt-0 md:pt-3'>
                             <label className=' text-lg font-semibold'>Contact No.</label>
                             <input 
                             type='number'
