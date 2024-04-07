@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: charmB ;
+    src: url(../public/Charm/Charm-Bold.ttf);
+  }
+.charmB{
+    font-family: charmB;
+}
+
+@font-face {
+    font-family: charm ;
+    src: url(../public/Charm/Charm-Regular.ttf);
+  }
+.charm{
+    font-family: charm;
+}
+
+@font-face {
+    font-family: oleoB ;
+    src: url(../public/Oleo_Script/OleoScript-Bold.ttf);
+  }
+.oleoB{
+    font-family: oleoB;
+}
+
+@font-face {
+    font-family: oleo ;
+    src: url(../public/Oleo_Script/OleoScript-Regular.ttf);
+  }
+.oleo{
+    font-family: oleo;
+}
+
+@font-face {
+  font-family: berk ;
+  src: url(../public/BerkshireSwash-Regular.ttf);
+}
+.berk{
+  font-family: berk;
+}
