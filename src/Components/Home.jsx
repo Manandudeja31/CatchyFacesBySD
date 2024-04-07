@@ -8,7 +8,7 @@ const Home = () => {
             <Navbar/>
             <div className=' relative'>
                 <div className='absolute right-6 top-52 lg:right-[450px] flex flex-col 
-                lg:top-0 md:right-[280px] md:top-0 gap-2 justify-center items-center'>
+                lg:top-0 md:right-[250px] md:top-0 gap-2 justify-center items-center'>
                     <h2 className=' h-22 w-168 text-[#FF9999] text-3xl font-semibold oleoB'>MAKEUP ARTIST</h2>
                     <p className=' pb-0 text-white text-xl md:text-black font-semibold berk pl-10'>
                         YOUR FACE 👩, MY SKILLS. 🪄
