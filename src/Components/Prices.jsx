@@ -9,7 +9,7 @@ const Prices = () => {
     <div className='mb-10 lg:mb-20' id='Prices'> {/* Adjust margin bottom */}
       <div className='mt-20'>
         <div className='mb-10 flex flex-col justify-center items-center'>
-          <h2 className='text-xl font-semibold pb-5 text-[#FF9999]'>PRICES</h2>
+          <h2 className='text-xl font-semibold pb-5 text-[#FF9999] meriR'>PRICES</h2>
           <h1 className='text-4xl font-semibold pb-5 oleoB'>PRICING PLAN</h1>
           <div className='h-[1px] w-20 bg-[#FF9999]'></div>
         </div>

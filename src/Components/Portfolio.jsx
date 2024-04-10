@@ -25,7 +25,7 @@ const Portfolio = ({items}) => {
         </div>
 
         <div className=' flex justify-center items-center'>
-            <div className=' flex justify-center items-center md:gap-5 bg-black/60 text-md text-white font-bold w-[400px] md:w-fit rounded-full p-5'>
+            <div className=' flex justify-center items-center md:gap-5 h-16 bg-black/60 text-md text-white font-bold w-[400px] md:w-fit rounded-full p-5'>
                 {tabsName.map((element,index) => {
                     return(
                         <div key={index} 

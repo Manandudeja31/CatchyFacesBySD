@@ -16,7 +16,7 @@ const Form = () => {
 
     }
   return (
-    <div className=' w-[400px] lg:w-full'>
+    <div className=' w-[400px] lg:w-full meriR'>
         {state === true ? ( 
             <form ref={form} onSubmit={handleSubmit}>
                 <div className=' m-10 border p-5 border-black'>
@@ -33,7 +33,7 @@ const Form = () => {
                             required={true}
                             />
                         </div>
-                        <div className=' flex flex-col lg:pt-0 md:pt-3'>
+                        <div className=' flex flex-col pt-3 lg:pt-0 md:pt-3'>
                             <label className=' text-lg font-semibold'>Contact No.</label>
                             <input 
                             type='number'
@@ -69,7 +69,7 @@ const Form = () => {
                         />
                     </div>
                     <div className=' flex flex-col pt-5 justify-center items-center'>
-                        <label className=' text-lg font-semibold'>When do you require my services? </label>
+                        <label className=' text-xl text-center font-semibold'>When do you require my services? </label>
                         <div className=' flex gap-3 pt-2 w-[300px] md:w-full md:gap-5 justify-center items-center'>
                             <input 
                             type="date" 

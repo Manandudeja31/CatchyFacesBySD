@@ -38,13 +38,13 @@ const Navbar = () => {
     showMenu(!menu);
   } 
   return (
-    <nav className="flex z-[90] relative justify-between items-center text-white bg-black/20" >
+    <nav className="flex z-[90] relative meriB justify-between items-center text-white bg-black/20" >
       <div className='flex justify-center items-center font-bold text-2xl md:text-3xl pl-5 hover:text-[#FF9999]'>
         <img src={logo} alt='Simran' className=' h-12 w-10 object-contain'/>
         <h2>IMRAN</h2>
       </div>
     {/* Pc screen */}
-      <div className=' font-semibold pr-20 hidden md:block'>
+      <div className=' font-semibold pr-10 hidden md:block'>
         <NavLinks/>
       </div>
     {/* Mobile Screen */}

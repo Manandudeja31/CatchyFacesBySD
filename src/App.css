@@ -41,3 +41,43 @@
 .berk{
   font-family: berk;
 }
+
+@font-face {
+  font-family: meri ;
+  src: url(../public/Merriweather-Black.ttf);
+}
+.meri{
+  font-family: meri;
+}
+
+@font-face {
+  font-family: meriB ;
+  src: url(../public/Merriweather-Bold.ttf);
+}
+.meriB{
+  font-family: meriB;
+}
+
+@font-face {
+  font-family: meriR ;
+  src: url(../public/Merriweather-Regular.ttf);
+}
+.meriR{
+  font-family: meriR;
+}
+
+@font-face {
+  font-family: meriI ;
+  src: url(../public/Merriweather-BoldItalic.ttf);
+}
+.meriI{
+  font-family: meriI;
+}
+
+@font-face {
+  font-family: meriBI ;
+  src: url(../public/Merriweather-BoldItalic.ttf);
+}
+.meriBI{
+  font-family: meriBI;
+}
