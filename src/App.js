@@ -10,7 +10,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 function App() {
   return (
-    <div className=' overflow-x-hidden'>
+    <div className=' overflow-x-hidden '>
       {/* <Navbar/> */}
       <Home />
       <About />

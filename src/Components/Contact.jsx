@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
   
   return (
-    <div className=' mt-10 bg-[#f5ebeb] pb-10 pt-10 pl-5 pr-5 flex flex-col md:flex-row justify-between items-center' id='Contact'>
+    <div className=' mt-10 bg-[#f5ebeb] pb-10 pt-10 pl-5 pr-5 flex flex-col md:flex-row gap-10 justify-center items-center' id='Contact'>
       <div className=' mt-10 font-semibold meriB'>
         <h2 className=' text-4xl font-bold pb-5 oleoB'>CONTACT ME</h2>
         <div className=' h-[2px] w-20 bg-[#FF9999] mb-5'></div>

@@ -3,17 +3,17 @@ import about from "../Assets/about.jpeg"
 const About = () => {
   return (
     <section  className=' bg-[#f5ebeb] pt-20 pb-20 ' id='About'>
-      <div className=' grid grid-cols-1 md:grid-cols-2 px-2 md:pr-20 md:gap-20 lg:gap-0 md:pl-10 items-center md:items-center'>
+      <div className=' flex flex-col md:flex-row justify-center px-2 md:pr-10 md:gap-10 lg:gap-0 md:pl-5 items-center md:items-center'>
         <div className='h-[520px] w-[400px] aspect-[3/2] object-contain lg:w-[452px] md:mr-10 flex justify-center items-center'>
           <img src={about} alt='About-Img' className='h-[500px] w-[400px] pr-2 object-cover object-top'/>
         </div>
-        <div className=' flex flex-col gap-4 text-center'>
-          <h2 className=' text-[#FF9999] meriB font-bold text-xl'>About Me</h2>
+        <div className=' flex flex-col gap-4 justify-center items-center'>
+          <h2 className=' text-[#FF9999] meri font-bold text-xl'>About Me</h2>
           <h1 className=' text-[#1A0F0F] font-bold text-xl meriB'>SIMRAN DUDEJA</h1>
           <div className=' flex items-center justify-center'>
             <div className=' h-[2px] w-20 bg-[#FF9999]'></div>
           </div>
-          <div className=' text-md text-wrap w-fit pl-5 pr-5 meriR lg:w-[600px] font-semibold leading-6'>
+          <div className=' text-md text-center text-wrap w-fit pl-5 pr-5 meriR lg:w-[600px] md:w-[300px] font-semibold leading-6'>
               <p className=' pb-3'>
                 Hey 🌟 I'm a Delhi-based Makeup Artist with a passion for transforming 
                 faces! 💄 Under the guidance of globally recognized makeup artist Meenakshi Dutt, 

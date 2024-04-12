@@ -13,11 +13,11 @@ const Prices = () => {
           <h1 className='text-4xl font-semibold pb-5 oleoB'>PRICING PLAN</h1>
           <div className='h-[1px] w-20 bg-[#FF9999]'></div>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-4'> 
-          <img src={PricesB} className='h-auto max-h-[350px] w-full p-5'/> 
-          <img src={PricesE} className='h-auto max-h-[350px] w-full p-5'/> 
-          <img src={PricesP} className='h-auto max-h-[350px] w-full p-5 aspect-[1/2] object-cover'/> 
-          <img src={PricesH} className='h-auto max-h-[350px] w-full p-5 aspect-[1/2] object-cover '/> 
+        <div className='flex flex-col md:flex-row justify-center items-center flex-wrap gap-8 px-4'> 
+          <img src={PricesB} className='md:h-[350px] h-[250px] object-cover md:w-[550px] w-full p-5 aspect-[1/2]'/> 
+          <img src={PricesE} className='md:h-[350px] h-[250px] object-cover md:w-[550px] w-full p-5 aspect-[1/2]'/> 
+          <img src={PricesP} className='md:h-[350px] h-[250px] object-cover md:w-[550px] w-full p-5 aspect-[1/2]'/> 
+          <img src={PricesH} className='md:h-[350px] h-[250px] object-cover md:w-[550px] w-full p-5 aspect-[1/2] '/> 
         </div>
       </div>
     </div>
