@@ -19,13 +19,13 @@ const About = () => {
           <div className=" flex items-center justify-center">
             <div className=" h-[2px] w-20 bg-[#FF9999]"></div>
           </div>
-          <div className=" text-md text-center text-wrap w-fit pl-5 pr-5 meriR lg:w-[600px] md:w-[300px] font-semibold leading-6">
+          <div className=" text-lg text-wrap w-fit pl-5 pr-5 lg:w-[600px] md:w-[300px]  leading-6">
             <p className=" pb-3">
-              Hey I'm a Delhi-based Makeup Artist with a passion for
-              transforming faces! Under the guidance of globally recognized
-              makeup artist Meenakshi Dutt, I've honed my skills and creativity.
-              Growing up, makeup always fascinated me, and being able to turn
-              that passion into a career is a dream come true!
+              Hi I'm a Delhi-based Makeup Artist with a passion for transforming
+              faces! Under the guidance of globally recognized makeup artist
+              Meenakshi Dutt, I've honed my skills and creativity. Growing up,
+              makeup always fascinated me, and being able to turn that passion
+              into a career is a dream come true!
             </p>
             <p className=" pb-3">
               For the past five years, I've been dedicated to this field, and I
@@ -35,9 +35,11 @@ const About = () => {
               I believe it's more than just cosmetics; it's about enhancing
               inner beauty and confidence!When you look good, you feel good!
             </p>
-            <p className=" pb-0">YOUR FACE, MY SKILLS.</p>
-            <p className=" pb-3">Let's bring out your best look together!</p>
-            Simran!
+            <p className=" pb-0 pt-5 text-center">YOUR FACE, MY SKILLS.</p>
+            <p className=" pb-3 text-center">
+              Let's bring out your best look together!
+            </p>
+            <p className="text-center">Simran!</p>
           </div>
         </div>
       </div>
